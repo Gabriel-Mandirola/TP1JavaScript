@@ -105,6 +105,7 @@ if(littleRedRidingHood.posicionX > 660 || littleRedRidingHood.posicionX < 0 || l
    wolf.posicionY = 0
    if(score > maxScore){
     showMaxScore.textContent = "Max Score: " + score;
+     maxScore = score
    }
    score = 0;
    showScore.textContent = "Score: " + score;
@@ -121,6 +122,7 @@ if(littleRedRidingHood.posicionX > 660 || littleRedRidingHood.posicionX < 0 || l
    wolf.posicionY = 0
    if(score > maxScore){
    showMaxScore.textContent = "Max Score: " + score;
+     maxScore = score
    }
    score = 0;
    showScore.textContent = "Score: " + score;
